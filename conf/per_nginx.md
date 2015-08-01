@@ -31,7 +31,7 @@ gzip_proxied any;
 gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript application/javascript text/        x-js;`
 gzip_buffers 16 8k; 
 ```
-#for php-cache`
+#for php-cache
 ```
 fastcgi_cache_path /var/cache/nginx levels=1:2 keys_zone=microcache:10m max_size=1000m inactive=60m;
 ```
